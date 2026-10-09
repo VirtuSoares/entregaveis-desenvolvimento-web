@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenvolvimento Web - Semana 05</title>
+</head>
+<body>
+    <h1>Entregável Semana 05 – Objetos, Dados e Assincronismo</h1>
+
+    <section>
+        <h2>Parte 1: Processamento de Pedidos</h2>
+        <button id="btn-processar-pedidos">Processar Pedidos</button>
+        <div id="status-pedidos"></div>
+        <ul id="lista-pedidos"></ul>
+        <p><strong>Total Faturado:</strong> <span id="total-faturado">R$ 0.00</span></p>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Parte 2: Buscador de CEP</h2>
+        <form id="form-cep">
+            <label for="cep-input">CEP (apenas 8 números):</label>
+            <input type="text" id="cep-input" placeholder="Ex: 65000000" maxlength="9">
+            <button type="submit" id="btn-cep">Buscar CEP</button>
+        </form>
+        <div id="status-cep"></div>
+        <dl id="resultado-cep"></dl>
+
+        <h3>Histórico de Buscas de CEP</h3>
+        <ul id="historico-cep"></ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Parte 3: Desafio Mini Pokédex</h2>
+        <form id="form-pokemon">
+            <label for="pokemon-input">Nome do Pokémon:</label>
+            <input type="text" id="pokemon-input" placeholder="Ex: pikachu">
+            <button type="submit" id="btn-pokemon">Buscar Pokémon</button>
+        </form>
+        <div id="status-pokemon"></div>
+        <div id="resultado-pokemon"></div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
